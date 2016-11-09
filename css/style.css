@@ -1,0 +1,549 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+	color: #555555;
+	font-size: 14px;
+}
+.mui-scroll-wrapper{
+	background: #f0f0f0 !important;
+}
+
+.count{
+	background: #f0f0f0 !important;
+}
+.main{
+	margin: 20px 15px 0px 15px;
+}
+.dingdanxiangqing{
+	display: none;
+}
+.top{
+	height: 78px;
+	background-image: url(../images/top.png);
+	background-size:cover ;
+	position: relative;
+}
+.bg{
+	width: 100%;
+}
+
+/*******弹框***********/
+.box{
+	position: fixed;
+	width: 100%;
+	height: 1000px;
+	background:rgba(0,0,0,0.4) ;
+	z-index: 998;
+	display: none;
+}
+.box_co{
+	position: fixed;
+	width: 91%;
+	z-index: 999;
+	margin-left: 5%;
+	margin-top:80px;
+	background: white;
+	padding: 10px;
+	overflow: auto;
+}
+.box_co span{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	border: 1px solid #f06540;
+	border-radius:20px ;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.box_co label img{
+	width: 15px !important;
+	height: 15px !important;
+}
+.box_co p{
+	position: relative;
+}
+.box_co p img{
+	width: 45px;
+	height: 45px;
+}
+.box_co p samp{
+	font-size: 18px;
+	font-weight: bold;
+	position: absolute;
+	top:15px;
+	left: 50px;
+}
+.box_co p label{
+	position: absolute;
+	top: 15px;
+	right: 5px;
+	font-size: 16px;
+	color: #f06540;
+}
+/***********/
+.sanzheren_main{
+	display: none;
+}
+
+/*************司机保险额弹框****************/
+.sijibaoxian_main{
+	display: none;
+}
+/*************乘客保险额弹框****************/
+.chengkebaoxian_main{
+	display: none;
+}
+/*************玻璃险弹框****************/
+.bolixian_main{
+	display: none;
+}
+.cheshen_main{
+	display: none;
+}
+.zhiding_main{
+	display: none;
+}
+/*************促销信息险弹框****************/
+.chuxiaoxinxi_main{
+	display: none;
+}
+/*************保险险弹框****************/
+.baoxiangongsi_main{
+	display: none;
+	margin-top: 200px;
+}
+.cheliangxinxi_main{
+	display: none;
+}
+/*************登录弹框****************/
+.chaxundian_main{
+	display: none;
+	margin-top: 200px;
+}
+/*************车辆信息****************/
+.cheliangxinxi_main{
+	display: none;
+}
+.tishixinxi{
+	display: block;
+	text-align: center;
+}
+.queding{
+	position: relative;
+	width: 50% !important;
+} 
+.queding img{
+	position: absolute;
+	left: 6px;
+	top: 3px;
+	width: 25px;
+	height: 25px;
+}
+/****************************/
+.inp input{
+	border: 0px !important;
+	width: 55% !important;
+	margin: 0px !important;
+	padding: 10px 5px !important;
+}
+.inp div span{
+	font-size: 16px;
+}
+.inp div{
+	background-color: white;
+	border-radius:20px ;
+	margin-bottom: 10px;
+}
+
+.chaxun{
+	text-align: center;
+	display: block;
+	width: 100%;
+	border-radius:20px ;
+	background-color: #f06540;
+	color: white;
+	padding: 10px 0px;
+	position: relative;
+}
+.chaxun img{
+	position: absolute;
+	left: 5px;
+	top: 3px;
+	width: 35px;
+	height: 35px;
+}
+.tishi{
+	margin: 20px 0px;
+	display: flex;
+}
+.tishi div{
+	float: left;
+}
+.gantan{
+	width: 8%;
+	margin-right: 3%;
+}
+.gantan img{
+	width: 100%;
+}
+.font{
+	width: 100%;
+	height: 10%;
+	position: absolute;
+	bottom: 0px;
+	background-image: url(../images/foot.gif);
+	background-size:cover ;
+	z-index: 999;
+}
+.top{
+	position: relative;
+}
+.top_main{
+	position: absolute;
+	left: 20%;
+	top: 50%;
+	display: flex;
+}
+.top_main_right{
+	float: left;
+	position: absolute;
+	top: 46%;
+	left: 5%;
+}
+.top_main_right img{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: -2px;
+	left: 5%;
+}
+.top_main_right span{
+	display: block;
+	text-align: center;
+	color: #f06540;
+	width: 25px;
+	height: 25px;
+	font-size: 20px;
+	border: 1px solid #f06540;
+	border-radius:50% ;
+}
+.top_main_left{
+	float: left;
+}
+.top_main_left span{
+	border: 2px solid #f06540;
+	padding: 5px 25px;
+	color: white;
+}
+.top_main_left span:nth-of-type(1){
+		border-radius:20px 0px 0px 20px;
+		background-color: #f06540;
+}
+.top_main_left span:nth-of-type(2){
+		border-radius:0px 20px 20px 0px;
+}
+
+
+/************车辆信息*****************/
+
+.clxx{
+	text-align: center;
+	padding-top: 10%;
+	color: white;
+	font-size: 16px;
+}
+.tit{
+	margin-bottom: 10px;
+	position: relative;
+}
+.tit span{
+	display: block;
+	width: 5px;
+	height: 20px;
+	background: #f06540;
+	float: left;
+	border-radius:5px ;
+	margin-right: 10px;
+}
+.tit samp{
+	color: #333333;
+}
+.xiala{
+	display: block;
+	width: 100%;
+	border-radius:20px ;
+	background-color: white;
+	color: 555555;
+	padding: 10px 10px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.xiala samp{
+	position: absolute;
+	right: 2%;
+	top: 8px;
+}
+.xiala samp img{
+	width: 27px;
+	height: 27px;
+}
+.tanhao{
+	position: relative;
+}
+.tanhao img{
+	width: 20px;
+	margin-right: 10px;
+	
+}
+.tanhao span{
+	position: absolute;
+	top: 0px;
+	left: 25px;
+}
+.bxgs{
+	display: inline-block;
+}
+.bxgs span{
+	display: block;
+	padding: 5px 10px;
+	float: left;
+	border: 1px solid #999999;
+	margin-right: 20px;
+	border-radius:20px ;
+	margin-top: 10px;
+}
+.buy_tow{
+	border: 1px solid #f06540;
+}
+.adddianji{
+	border: 1px solid #f06540 !important;
+	color: #f06540;
+}
+
+.checkboxk img{
+	width: 15px;
+	height: 15px;
+}
+
+/***********报价结果************/
+
+.bj_xq{
+	background: white;
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.bj_xq p{
+	color: #555555;
+}
+.bj_xq_left{
+	float: left;
+	width: 90%;
+	padding: 10px;
+}
+.bj_xq_right{
+	float: left;
+	width: 10%;
+	background: #f06540;
+	height:200px;
+	position: relative;
+}
+.bj_xq_right img{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 10%;
+	right: 15%;
+}
+.bj_xq_left img{
+	width: 25px;
+	height: 25px;
+}
+.bj_xq_left p{
+	margin-bottom: 5px;
+	position: relative;
+}
+.bj_xq_left p:nth-of-type(1){
+	color: black;
+	font-size: 16px;
+}
+.bj_xq_left p:nth-of-type(1) span{
+	position: absolute;
+	top: 0px;
+	left: 10%;
+	font-size: 16px;
+}
+.bj_xq_left p:nth-of-type(3){
+	font-size: 12px;
+	color: #f06540;
+}
+.bj_xq_left p:nth-of-type(3) img{
+	width: 15px;
+	height: 15px;
+}
+.bj_xq_left p:nth-of-type(3) span{
+	position: absolute;
+	top: 0px;
+	left: 10%;
+	font-size: 16px;
+}
+.bj_xq_left p:nth-of-type(2) span{
+	color: #f06540;
+}
+.bj_xq_left p:nth-of-type(2) span{
+	position: absolute;
+	top: 0px;
+	left: 10%;
+	font-size: 16px;
+}
+
+/**********保险信息*************/
+.bx_p{
+	position: relative;
+	width: 100%;
+
+}
+.bx_p img{
+	width: 30px;
+	height: 30px;
+}
+.bx_p span{
+	position: absolute;
+	top: 5px;
+	left: 10%;
+	font-size: 18px;
+}
+.baoxian_p p{
+	color: #555555;
+}
+.baoxian_p span{
+	color: #999999;
+}
+.baoxian_p samp{
+	color: #f06540;
+}
+.chezhu p{
+	color: #555555;
+}
+
+
+/**************投保单*********************/
+.tb_xc img{
+	width: 45px;
+	height: 45px;
+}
+.tb_xc p{
+	position: relative;
+	border-bottom:1px solid #d0d0d0 ;
+}
+.tb_xc span{
+	position: absolute;
+	top: 12px;
+	left: 55px;
+}
+.tb_xz{
+	position: absolute ;
+	right: 20px;
+	top: -1px;
+	color: #f06540 !important;
+}
+.tit img{
+	position: absolute ;
+	right: 5px;
+	top: 5px;
+	width: 10px;
+	height: 10px;
+}
+.txtcolor{
+	color:#CF2D28;
+}
+
+
+/*  弹窗部分 */
+.modal{
+	background:rgba(42,38,38,0.5);
+	width:100%;
+	height:100%;
+	position:fixed;
+	left:0;
+	top:0;
+	display:none;
+	z-index: 10;
+}
+.box{
+	background:#fff;
+	position:absolute;
+	border-radius:6px;
+	width:80%;
+	left:50%;
+	top:20%;
+	transform:translate(-50%);
+	height:auto;
+	padding-bottom:10px;
+}
+.box h3{
+	padding:15px 0 0 92px;
+	height:30px;
+	line-height: 30px;
+	position:relative;
+	font-size:20px;
+	color:#333;
+}
+.box h3 span{
+	position: absolute;
+	left:20px;
+	top:15px;
+	display:block;
+	width:27px;
+}
+.box h3 span img{
+	width:100%;
+}
+.box #close{
+	position:absolute;
+	right:20px;
+	top:15px;
+	width:16px;
+}
+.box #close img{
+	width:100%;
+}
+.box .bot{
+	padding-top:15px;
+}
+.box .bot p{
+	padding-left:35px;
+	line-height:29px;
+}
+.box .bot p img{
+	width:29px;
+	display:block;
+	float:left;
+}
+.box .bot .btn{
+	width:80%;
+	border-radius:21px;
+	padding:10px 0;
+	margin-top:10px;
+	margin-left:25px;
+	background:#f06540;
+	color:#fff;
+}
+.box .bty{
+	padding:15px 40px 0 40px; 
+}
+.box .bty p{
+	font-size:12px;
+	margin:0;
+	}
+.box .bty button{
+	width:80%;
+	border-radius:21px;
+	padding:10px 0;
+	margin-top:10px;
+	margin-left:25px;
+	background:#f06540;
+	color:#fff;
+}

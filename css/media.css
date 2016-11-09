@@ -1,0 +1,20 @@
+@media screen and (max-width: 320px)  {
+	
+	.inp input{
+		width: 60%  !important;
+	}
+}
+
+
+@media screen and (min-width: 768px)  {
+	
+	.gantan{
+		width: 3%;
+	}
+	.top_main{
+		left: 35%;
+	}
+	.clxx{
+		padding: 5%;
+	}
+}

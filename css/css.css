@@ -1,0 +1,165 @@
+.bg{
+	margin-bottom: -4px;
+}
+.in-fr{
+	float: right;
+}
+.in-mi{
+	margin-top: 20px;
+}
+.in-dand{
+	width: 100%;
+	padding: 5px 5%;
+	background: #fff;
+}
+.in-dand p{
+	color: #555;
+	font-size: 15px;
+}
+.in-dand p:first-of-type{
+	padding-top:10px;
+}
+.in-color{
+	color: #ea7051 !important;
+}
+.in-chezhu{
+	margin: 0px 0px ;
+	padding: 10px 5%;
+	border-top: 1px solid #d0d0d0;
+	border-bottom: 1px solid #d0d0d0;
+}
+.in-chezhu .tit{
+	margin: 0px;
+	font-weight: 600;
+}
+.in-div{
+	background: #fff;
+	padding-top: 10px;
+	padding-left: 5%;
+	overflow: hidden;
+}
+.in-img,.in-img1{
+	position: absolute;
+	top:0px;
+	left: -30px;
+	width: 5%;
+}
+.in-img1{
+	top:15px;
+	width: 3%;
+	left: -26px;
+}
+.in-bgff{
+	width:100%;
+	margin-top: 10px;
+	float: right;
+	list-style: none;
+	border-left: 1px solid #d0d0d0;
+}
+.in-bgff li{
+	margin-left: 20px;
+	position: relative;
+}
+.in-bgff li p{
+	color: #999;
+}
+.in-bgff li:nth-of-type(2){
+	border-bottom: 1px solid #d0d0d0;
+	border-top: 1px solid #d0d0d0;
+	padding: 10px 0px;
+}
+.in-bgff li:nth-of-type(1){
+	padding-bottom: 10px;
+}
+.in-bgff li:nth-of-type(3){
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+.in-bgff li p{
+	margin: 0px;
+	list-style: none;
+}
+.in-bgff li p:last-of-type{
+	font-size: 12px;
+}
+.in-bgff li p span{
+	font-size: 12px;
+	margin-left: 5px;
+	color: #999;
+}
+.in-dand1{
+	width: 100%;
+	background: #fff;
+	margin-bottom: 20px;
+}
+.in-dand1:last-of-type{
+	margin-bottom: 0px;
+}
+.in-dand1 p{
+	padding: 15px 5%;
+	border-bottom: 1px solid #d0d0d0;
+	margin-bottom: 0px;
+	color: #555;
+}
+.in-dand1 p span{
+	margin-left: 5px;
+	color: #555;
+}
+.in-action p,.in-action span{
+	color: #e8623d  !important;
+}
+.in-dand2{
+	width: 100%;
+	padding: 10px 5%;
+	background: #fff;
+}
+.in-dand2 p,.in-dand2 p span{
+	font-size: 16px;
+	color: #333333;
+}
+.in-gou{
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid #e0e0e0;
+	float: left;
+}
+.in-imggou{
+	border-top: 1px solid #e0e0e0;
+	background: #fff;
+}
+.in-imggou .in-fontdiv{
+	width: 100%;
+	padding: 10px 5%;
+}
+.in-imggou .in-fontdiv span{
+	font-size: 16px;
+}
+.in-imggou .in-fontdiv img{
+	display: none;
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+.in-font{
+	line-height: 30px;
+	margin-left: 10px;
+}
+@media only screen and (max-width:350px ) {
+	
+	.in-img{
+		left: -28px;
+	}
+	.in-img1{
+		left: -25px;
+	}
+}
+@media only screen and (min-width:400px ) {
+	
+	.in-img{
+		left: -30px;
+	}
+	
+}
